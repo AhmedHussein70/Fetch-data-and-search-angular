@@ -1,0 +1,48 @@
+.footer {
+  width: 100%;
+  background-color: #2d3436;
+  color: aliceblue;
+  /* margin: ; */
+  padding: 5rem;
+}
+.parentItems {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.parentItems .card {
+  color: aliceblue;
+  background-color: #2d3436;
+  border: none;
+}
+
+.parentItems .card h3 {
+  border-bottom: 2px solid #fafafa;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+ul li {
+  margin-bottom: 10px;
+}
+ul li span {
+  margin: 0 10px;
+}
+.parentIcon {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+  width: 100%;
+  /* border: solid; */
+  padding: 7px 10px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+a {
+  color: #fafafa;
+  text-align: center;
+}

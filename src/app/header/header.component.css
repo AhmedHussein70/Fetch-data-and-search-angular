@@ -1,0 +1,23 @@
+.HeroSection {
+  border: solid;
+  background-color: #2d3436;
+  height: 30em;
+}
+.HeroSection .contentHero {
+  /* border: solid; */
+  transform: translate(10rem, 7rem);
+  width: fit-content;
+  color: #ffffff;
+}
+.HeroSection .contentHero h1 {
+  font-size: 5rem;
+  letter-spacing: .7rem;
+}
+
+.HeroSection .contentHero p {
+  font-size: 1.7rem;
+  color: #f15b43;
+}
+.HeroSection .contentHero p span {
+  color: #ffffff;
+}

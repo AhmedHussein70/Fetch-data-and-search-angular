@@ -1,0 +1,107 @@
+<!-- <div class="skils">
+  <div class="container">
+    <h1 class="text-center">Skils</h1>
+    <p class="text-center">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio impedit,
+      aspernatur incidunt, soluta libero quaerat nisi ex nihil id nulla eius
+      minima laboriosam voluptatem deserunt minus at veritatis vitae assumenda.
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio impedit,
+      aspernatur incidunt, soluta libero quaerat nisi ex nihil id nulla eius
+      minima laboriosam voluptatem deserunt minus at veritatis vitae assumenda
+    </p>
+    <div class="parentLang">
+      <div class="parentleftSkils">
+        <h2>language</h2>
+        <ul>
+          <li>lorem Lorem ipsum</li>
+          <li>lorem Lorem ipsum</li>
+
+          <li>lorem Lorem ipsum</li>
+
+          <li>lorem Lorem ipsum</li>
+        </ul>
+      </div>
+
+      <div class="prefix">
+        <div class="lanProgram">
+          <span class="lang">HTML</span><span class="presntege">95%</span>
+        </div>
+        <div class="lanProgram">
+          <span class="lang">Css</span><span class="presntege">95%</span>
+        </div>
+
+        <div class="lanProgram">
+          <span class="lang">js</span><span class="presntege">95%</span>
+        </div>
+
+        <div class="lanProgram">
+          <span class="lang">React</span><span class="presntege">95%</span>
+        </div>
+
+        <div class="lanProgram">
+          <span class="lang">Angular</span><span class="presntege">95%</span>
+        </div>
+
+        <div class="lanProgram">
+          <span class="lang">MongoDB</span><span class="presntege">95%</span>
+        </div>
+
+        <div class="lanProgram">
+          <span class="lang">Mysql</span><span class="presntege">95%</span>
+        </div>
+
+        <div class="lanProgram">
+          <span class="lang">Laraval</span><span class="presntege">95%</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<div class="skills-container">
+  <h1 class="text-center">Skills</h1>
+  <p class="text-center">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio impedit,
+    aspernatur incidunt, soluta libero quaerat nisi ex nihil id nulla eius
+    minima laboriosam voluptatem deserunt minus at veritatis vitae assumenda.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio impedit,
+    aspernatur incidunt, soluta libero quaerat nisi ex nihil id nulla eius
+    minima laboriosam voluptatem deserunt minus at veritatis vitae assumenda
+  </p>
+  <div class="skills-list">
+    <div class="parentleftSkils">
+      <h2>language</h2>
+      <ul>
+        <li>lorem Lorem ipsum</li>
+        <li>lorem Lorem ipsum</li>
+
+        <li>lorem Lorem ipsum</li>
+
+        <li>lorem Lorem ipsum</li>
+      </ul>
+    </div>
+
+    <div style="width: 48%">
+      <div *ngFor="let skill of skills" class="skill">
+        <div class="skill-name">{{ skill.name }}</div>
+        <div class="skill-bar">
+          <div
+            class="skill-progress"
+            [ngStyle]="{
+              width: skill.percentage + '%',
+              background:
+                'linear-gradient(90deg, #4caf50 ' +
+                skill.percentage +
+                '%, #e0e0e0 ' +
+                +30 +
+                skill.percentage +
+                '%)'
+            }"
+          >
+            {{ skill.percentage }}%
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

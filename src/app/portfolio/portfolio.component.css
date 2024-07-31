@@ -1,0 +1,45 @@
+.protfolio-parent {
+  width: 80%;
+  margin: auto;
+  margin: 3rem auto;
+  /* border: solid; */
+}
+.protfolio {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 3rem auto;
+}
+.card {
+  width: 19rem;
+  height: 15rem;
+}
+.card-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  /* border: solid; */
+  width: 100%;
+  text-align: center !important;
+}
+.card-title {
+  /* border: solid; */
+  border-bottom: 2px solid #ccc;
+  text-align: center !important;
+  width: 60%;
+  margin: auto;
+  padding-bottom: 10px;
+}
+.darkT {
+  background-color: #333;
+  color: #fff;
+}
+
+.darkO {
+  background-color: #fff;
+  color: #333;
+}

@@ -1,0 +1,92 @@
+.skils {
+  background-color: #2d3436;
+  color: #fafafa;
+  padding: 2rem 1rem;
+}
+.parentLang {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* width: 48%; */
+  margin: auto;
+  /* border: solid red; */
+}
+.parentleftSkils {
+  /* border: solid green; */
+  width: 48%;
+  text-align: center;
+}
+.parentleftSkils h2 {
+  width: 40%;
+  margin: auto;
+  border-bottom: 2px solid #fafafa;
+  padding-bottom: 10px;
+}
+ul {
+  margin: auto !important;
+  /* border: solid; */
+  text-align: center;
+}
+ul li {
+  margin-top: 10px;
+}
+.prefix {
+  width: 48%;
+  /* border: solid; */
+  margin-top: 2rem;
+}
+
+.lanProgram {
+  /* border: solid; */
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: #3b4548;
+}
+.lang {
+  background-color: #44494b;
+  padding: 1rem 2rem;
+  width: 20%;
+}
+.presntege {
+  background-color: #dfe6e9;
+  width: 70%;
+  text-align: end;
+  padding: 1rem 2rem;
+  color: #434a4d;
+}
+.skills-container {
+  padding: 20px;
+}
+
+.skills-list {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill {
+  margin-bottom: 15px;
+}
+
+.skill-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.skill-bar {
+  background: #e0e0e0;
+  border-radius: 5px;
+  height: 30px;
+  width: 100%;
+  position: relative;
+}
+
+.skill-progress {
+  height: 100%;
+  color: #fff;
+  text-align: right;
+  line-height: 30px;
+  padding-right: 10px;
+  border-radius: 5px;
+}
