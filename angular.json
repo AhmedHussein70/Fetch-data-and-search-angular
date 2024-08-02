@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "projectOneAnguler": {
+    "angularProjectLab2": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,19 +13,18 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/project-one-anguler",
+            "outputPath": "dist/angular-project-lab2",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": ["zone.js"],
             "tsConfig": "tsconfig.app.json",
             "assets": ["src/favicon.ico", "src/assets"],
             "styles": [
-              "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/primeng/resources/themes/lara-light-blue/theme.css",
+              "node_modules/primeng/resources/primeng.min.css"
             ],
-            "scripts": [
-              "./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -55,10 +54,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "projectOneAnguler:build:production"
+              "buildTarget": "angularProjectLab2:build:production"
             },
             "development": {
-              "buildTarget": "projectOneAnguler:build:development"
+              "buildTarget": "angularProjectLab2:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -66,7 +65,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "projectOneAnguler:build"
+            "buildTarget": "angularProjectLab2:build"
           }
         },
         "test": {
